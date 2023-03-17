@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Todo List</title>
+  </head>
+  <body>
+    <main class="container">
+      <h1>My Todo List App</h1>
+
+      <div class="input">
+        <input type="text" class="text" placeholder="enter new todo here..." />
+        <input type="button" class="button" value="Add" />
+      </div>
+
+      <ul id="list" class="list">
+        <li class="list-item">
+          <p>Fix the Supaware software</p>
+          <button class="delete">X</button>
+        </li>
+        <li class="list-item">
+          <p>Call Kamal</p>
+          <button class="delete">X</button>
+        </li>
+      </ul>
+
+      <div class="alert">
+        <div class="error"></div>
+        <div class="success"></div>
+      </div>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
